@@ -185,16 +185,24 @@ a {
   padding: 1rem;
 }
 
-.video-gallery iframe {
+.video-gallery a {
+  display: block;
   width: 300px;
-  height: 200px;
-  border: 4px solid var(--clr-green);
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: auto;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
 }
 
-.video-gallery iframe:hover {
-  transform: scale(1.1);
+.video-gallery a img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 4px solid var(--clr-green);
+  border-radius: 5px;
+}
+
+.video-gallery a:hover {
+  transform: scale(1.05);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
