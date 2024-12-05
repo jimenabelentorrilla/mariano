@@ -64,7 +64,7 @@ a {
 /* Iconos */
 .icon {
   /*font-size: 1.5rem;*/
-  font-size: clamp(1.1rem, 2vw + 1rem, 2rem);
+  font-size: clamp(1.1rem, 1vw + 1.2rem, 2rem);
   color: white; 
   text-decoration: none; 
   transition: color 0.3s ease; 
@@ -100,7 +100,7 @@ a {
   color: #070707;
   padding: 14px 32px;
   /*font-size: 1rem;*/
-  font-size: clamp(1rem, 1vw + 1rem, 1.5rem);
+  font-size: clamp(1rem, 1vw + 1rem, 1.3rem);
   border-radius: 4px;
   cursor: pointer;
   font-weight: 700;
@@ -113,12 +113,12 @@ a {
 }
 .intro__header h1{
   /*font-size: 4.8rem;*/
-  font-size: clamp(2rem, 4vw + 1rem, 6rem);
+  font-size: clamp(2rem, 2vw + 2.2rem, 6rem);
   line-height: 1.5;
 }
 .intro__header p{
   /*font-size: 1.2rem;*/
-  font-size: clamp(1rem, 2vw + 1rem, 2rem);
+  font-size: clamp(1rem, 1vw + 1.2rem, 2rem);
   line-height: 1.8;
 }
 .overlay {
@@ -171,14 +171,14 @@ a {
   color: var(--clr-white);
   text-align: center;
   /*font-size: 2.5rem;*/
-  font-size: clamp(1.5rem, 4vw + 1rem, 4rem);
+  font-size: clamp(1.5rem, 1vw + 2rem, 4rem);
 }
 
 .section-description {
   color: var(--clr-white);
   text-align: center;
   /*font-size: 1.2rem;*/
-  font-size: clamp(1rem, 1vw + 1rem, 1.8rem);
+  font-size: clamp(1rem, 0.7vw + 1rem, 1.8rem);
   max-width: 600px;
   margin-bottom: 1rem;
   line-height: 1.6;
@@ -228,7 +228,7 @@ aside {
   background-attachment: fixed;
   background: rgb(174,221,127);
   background: linear-gradient(360deg, rgba(174,221,127,1) 23%, rgba(255,255,255,1) 54%, rgba(211,247,255,1) 90%);
-  min-height: 85vh;
+  min-height: 95vh;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -238,8 +238,8 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 34rem;
-  height: 40rem; 
+  width: clamp(38rem, 6vw + 1rem, 38rem);
+  height: clamp(35rem, 10vh + 4rem, 51rem);
 }
 .border-jack{
   border-radius: 20px;
@@ -277,6 +277,7 @@ aside {
 .footer-link {
   text-decoration: none; 
   color: #fff;
+  font-size: clamp(1rem, 1vw + 1rem , 1.5rem);
   font-size: 1.1rem;
   font-weight: 500;
   display: flex;
@@ -321,7 +322,7 @@ aside {
 
 /* Ícono dentro del botón */
 .discord-button i {
-  font-size: clamp(1rem, 2vw + 1rem, 2.3rem);
+  font-size: clamp(1rem, 1vw + 1rem, 2.3rem);
   color: #ffffff;
 }
 
@@ -374,6 +375,9 @@ aside {
   }
   .ul-footer{
     flex-direction: column;
+  }
+  .video-background{
+    min-height: 70vh;
   }
 
 }
